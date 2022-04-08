@@ -33,8 +33,8 @@ public class TorpedoStore {
       new IllegalArgumentException("numberOfTorpedos");
     }
 
-    boolean success = false;
-
+    boolean success = true;
+    
     // simulate random overheating of the launcher bay which prevents firing
     Random generator = new Random();
     double r = generator.nextDouble();
